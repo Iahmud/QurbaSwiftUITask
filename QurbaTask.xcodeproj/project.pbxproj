@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63903BBD29C77164002BBB88 /* SwiftUISnackbar in Frameworks */ = {isa = PBXBuildFile; productRef = 63903BBC29C77164002BBB88 /* SwiftUISnackbar */; };
+		63D02C4829C44EE600C1A617 /* QurbaTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C4729C44EE600C1A617 /* QurbaTaskApp.swift */; };
+		63D02C4A29C44EE600C1A617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C4929C44EE600C1A617 /* ContentView.swift */; };
+		63D02C4C29C44EEA00C1A617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D02C4B29C44EEA00C1A617 /* Assets.xcassets */; };
+		63D02C4F29C44EEA00C1A617 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D02C4E29C44EEA00C1A617 /* Preview Assets.xcassets */; };
+		63D02C5729C44F9900C1A617 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C5629C44F9900C1A617 /* NetworkingManager.swift */; };
+		63D02C5929C44FD800C1A617 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C5829C44FD800C1A617 /* NetworkingError.swift */; };
+		63D02C5B29C44FE800C1A617 /* ServiceName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C5A29C44FE800C1A617 /* ServiceName.swift */; };
+		63D02C5D29C44FF500C1A617 /* HttpMethodRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C5C29C44FF500C1A617 /* HttpMethodRequest.swift */; };
+		63D02C6129C4505A00C1A617 /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C6029C4505A00C1A617 /* InternetConnection.swift */; };
+		63D02C6429C451D300C1A617 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C6329C451D300C1A617 /* LoginModel.swift */; };
+		63D02C6729C5BCFE00C1A617 /* AppColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D02C6629C5BCFE00C1A617 /* AppColors.xcassets */; };
+		63D02C6A29C5BFFB00C1A617 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C6929C5BFFB00C1A617 /* LoginView.swift */; };
+		63D02C6D29C5CE0000C1A617 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C6C29C5CE0000C1A617 /* AppTheme.swift */; };
+		63D02C7429C607A700C1A617 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C7329C607A700C1A617 /* CustomTextField.swift */; };
+		63D02C7729C60B6700C1A617 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C7629C60B6700C1A617 /* LoginVM.swift */; };
+		63D02C7A29C60C5900C1A617 /* ValidateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C7929C60C5900C1A617 /* ValidateUser.swift */; };
+		63D02C7C29C60DC600C1A617 /* GlobalVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C7B29C60DC600C1A617 /* GlobalVar.swift */; };
+		63D02C8529C6402F00C1A617 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C8429C6402F00C1A617 /* HomeView.swift */; };
+		63D02C8729C6835500C1A617 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C8629C6835500C1A617 /* HomeVM.swift */; };
+		63D02C8929C6842A00C1A617 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C8829C6842A00C1A617 /* PostModel.swift */; };
+		63D02C8B29C6A41700C1A617 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C8A29C6A41700C1A617 /* PostView.swift */; };
+		63D02C8D29C6AD6400C1A617 /* KeyboardManagment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C8C29C6AD6400C1A617 /* KeyboardManagment.swift */; };
+		63D02C8F29C6AE7900C1A617 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C8E29C6AE7900C1A617 /* CustomModifiers.swift */; };
+		63D02C9329C6BB0B00C1A617 /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D02C9229C6BB0B00C1A617 /* ImageSliderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63D02C4429C44EE600C1A617 /* QurbaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QurbaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D02C4729C44EE600C1A617 /* QurbaTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QurbaTaskApp.swift; sourceTree = "<group>"; };
+		63D02C4929C44EE600C1A617 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63D02C4B29C44EEA00C1A617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63D02C4E29C44EEA00C1A617 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63D02C5629C44F9900C1A617 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		63D02C5829C44FD800C1A617 /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		63D02C5A29C44FE800C1A617 /* ServiceName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceName.swift; sourceTree = "<group>"; };
+		63D02C5C29C44FF500C1A617 /* HttpMethodRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethodRequest.swift; sourceTree = "<group>"; };
+		63D02C6029C4505A00C1A617 /* InternetConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnection.swift; sourceTree = "<group>"; };
+		63D02C6329C451D300C1A617 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		63D02C6629C5BCFE00C1A617 /* AppColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppColors.xcassets; sourceTree = "<group>"; };
+		63D02C6929C5BFFB00C1A617 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		63D02C6C29C5CE0000C1A617 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		63D02C7329C607A700C1A617 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		63D02C7629C60B6700C1A617 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		63D02C7929C60C5900C1A617 /* ValidateUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateUser.swift; sourceTree = "<group>"; };
+		63D02C7B29C60DC600C1A617 /* GlobalVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVar.swift; sourceTree = "<group>"; };
+		63D02C8429C6402F00C1A617 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		63D02C8629C6835500C1A617 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		63D02C8829C6842A00C1A617 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		63D02C8A29C6A41700C1A617 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		63D02C8C29C6AD6400C1A617 /* KeyboardManagment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManagment.swift; sourceTree = "<group>"; };
+		63D02C8E29C6AE7900C1A617 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		63D02C9229C6BB0B00C1A617 /* ImageSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D02C4129C44EE600C1A617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63903BBD29C77164002BBB88 /* SwiftUISnackbar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D02C3B29C44EE600C1A617 = {
+			isa = PBXGroup;
+			children = (
+				63D02C4629C44EE600C1A617 /* QurbaTask */,
+				63D02C4529C44EE600C1A617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63D02C4529C44EE600C1A617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D02C4429C44EE600C1A617 /* QurbaTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D02C4629C44EE600C1A617 /* QurbaTask */ = {
+			isa = PBXGroup;
+			children = (
+				63D02C5E29C4503F00C1A617 /* Helper */,
+				63D02C6B29C5CDF500C1A617 /* AppTheme */,
+				63D02C6529C5BC4400C1A617 /* App Assets */,
+				63D02C5529C44F5C00C1A617 /* Networking */,
+				63D02C7529C60B4900C1A617 /* ViewModel */,
+				63D02C6229C4518F00C1A617 /* Model */,
+				63D02C6829C5BFD600C1A617 /* Views */,
+				63D02C4729C44EE600C1A617 /* QurbaTaskApp.swift */,
+				63D02C4929C44EE600C1A617 /* ContentView.swift */,
+				63D02C7029C5DAD100C1A617 /* CustomViews */,
+				63D02C4D29C44EEA00C1A617 /* Preview Content */,
+			);
+			path = QurbaTask;
+			sourceTree = "<group>";
+		};
+		63D02C4D29C44EEA00C1A617 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63D02C4E29C44EEA00C1A617 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63D02C5529C44F5C00C1A617 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				63D02C5629C44F9900C1A617 /* NetworkingManager.swift */,
+				63D02C5829C44FD800C1A617 /* NetworkingError.swift */,
+				63D02C5A29C44FE800C1A617 /* ServiceName.swift */,
+				63D02C5C29C44FF500C1A617 /* HttpMethodRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		63D02C5E29C4503F00C1A617 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				63D02C7D29C61DE500C1A617 /* KeyboardManagment */,
+				63D02C7829C60C4600C1A617 /* Validation */,
+				63D02C5F29C4504800C1A617 /* Check Inernet Connection */,
+				63D02C7B29C60DC600C1A617 /* GlobalVar.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		63D02C5F29C4504800C1A617 /* Check Inernet Connection */ = {
+			isa = PBXGroup;
+			children = (
+				63D02C6029C4505A00C1A617 /* InternetConnection.swift */,
+			);
+			path = "Check Inernet Connection";
+			sourceTree = "<group>";
+		};
+		63D02C6229C4518F00C1A617 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63D02C6329C451D300C1A617 /* LoginModel.swift */,
+				63D02C8829C6842A00C1A617 /* PostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63D02C6529C5BC4400C1A617 /* App Assets */ = {
+			isa = PBXGroup;
+			children = (
+				63D02C4B29C44EEA00C1A617 /* Assets.xcassets */,
+				63D02C6629C5BCFE00C1A617 /* AppColors.xcassets */,
+			);
+			path = "App Assets";
+			sourceTree = "<group>";
+		};
+		63D02C6829C5BFD600C1A617 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63D02C6929C5BFFB00C1A617 /* LoginView.swift */,
+				63D02C8429C6402F00C1A617 /* HomeView.swift */,
+				63D02C8A29C6A41700C1A617 /* PostView.swift */,
+				63D02C9229C6BB0B00C1A617 /* ImageSliderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63D02C6B29C5CDF500C1A617 /* AppTheme */ = {
+			isa = PBXGroup;
+			children = (
+				63D02C6C29C5CE0000C1A617 /* AppTheme.swift */,
+			);
+			path = AppTheme;
+			sourceTree = "<group>";
+		};
+		63D02C7029C5DAD100C1A617 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				63D02C7329C607A700C1A617 /* CustomTextField.swift */,
+				63D02C8E29C6AE7900C1A617 /* CustomModifiers.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		63D02C7529C60B4900C1A617 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				63D02C7629C60B6700C1A617 /* LoginVM.swift */,
+				63D02C8629C6835500C1A617 /* HomeVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		63D02C7829C60C4600C1A617 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				63D02C7929C60C5900C1A617 /* ValidateUser.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		63D02C7D29C61DE500C1A617 /* KeyboardManagment */ = {
+			isa = PBXGroup;
+			children = (
+				63D02C8C29C6AD6400C1A617 /* KeyboardManagment.swift */,
+			);
+			path = KeyboardManagment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D02C4329C44EE600C1A617 /* QurbaTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D02C5229C44EEA00C1A617 /* Build configuration list for PBXNativeTarget "QurbaTask" */;
+			buildPhases = (
+				63D02C4029C44EE600C1A617 /* Sources */,
+				63D02C4129C44EE600C1A617 /* Frameworks */,
+				63D02C4229C44EE600C1A617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QurbaTask;
+			packageProductDependencies = (
+				63903BBC29C77164002BBB88 /* SwiftUISnackbar */,
+			);
+			productName = QurbaTask;
+			productReference = 63D02C4429C44EE600C1A617 /* QurbaTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D02C3C29C44EE600C1A617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					63D02C4329C44EE600C1A617 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 63D02C3F29C44EE600C1A617 /* Build configuration list for PBXProject "QurbaTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63D02C3B29C44EE600C1A617;
+			packageReferences = (
+				63903BBB29C77164002BBB88 /* XCRemoteSwiftPackageReference "SwiftUISnackbar" */,
+			);
+			productRefGroup = 63D02C4529C44EE600C1A617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D02C4329C44EE600C1A617 /* QurbaTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D02C4229C44EE600C1A617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D02C4F29C44EEA00C1A617 /* Preview Assets.xcassets in Resources */,
+				63D02C4C29C44EEA00C1A617 /* Assets.xcassets in Resources */,
+				63D02C6729C5BCFE00C1A617 /* AppColors.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D02C4029C44EE600C1A617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D02C7429C607A700C1A617 /* CustomTextField.swift in Sources */,
+				63D02C5729C44F9900C1A617 /* NetworkingManager.swift in Sources */,
+				63D02C4A29C44EE600C1A617 /* ContentView.swift in Sources */,
+				63D02C7C29C60DC600C1A617 /* GlobalVar.swift in Sources */,
+				63D02C7A29C60C5900C1A617 /* ValidateUser.swift in Sources */,
+				63D02C9329C6BB0B00C1A617 /* ImageSliderView.swift in Sources */,
+				63D02C5D29C44FF500C1A617 /* HttpMethodRequest.swift in Sources */,
+				63D02C8729C6835500C1A617 /* HomeVM.swift in Sources */,
+				63D02C6A29C5BFFB00C1A617 /* LoginView.swift in Sources */,
+				63D02C8F29C6AE7900C1A617 /* CustomModifiers.swift in Sources */,
+				63D02C7729C60B6700C1A617 /* LoginVM.swift in Sources */,
+				63D02C5929C44FD800C1A617 /* NetworkingError.swift in Sources */,
+				63D02C8B29C6A41700C1A617 /* PostView.swift in Sources */,
+				63D02C8D29C6AD6400C1A617 /* KeyboardManagment.swift in Sources */,
+				63D02C8529C6402F00C1A617 /* HomeView.swift in Sources */,
+				63D02C5B29C44FE800C1A617 /* ServiceName.swift in Sources */,
+				63D02C6429C451D300C1A617 /* LoginModel.swift in Sources */,
+				63D02C6129C4505A00C1A617 /* InternetConnection.swift in Sources */,
+				63D02C4829C44EE600C1A617 /* QurbaTaskApp.swift in Sources */,
+				63D02C6D29C5CE0000C1A617 /* AppTheme.swift in Sources */,
+				63D02C8929C6842A00C1A617 /* PostModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63D02C5029C44EEA00C1A617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63D02C5129C44EEA00C1A617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D02C5329C44EEA00C1A617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QurbaTask/Preview Content\"";
+				DEVELOPMENT_TEAM = YT78H3KQU2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IslamAhmed.QurbaTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63D02C5429C44EEA00C1A617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QurbaTask/Preview Content\"";
+				DEVELOPMENT_TEAM = YT78H3KQU2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IslamAhmed.QurbaTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D02C3F29C44EE600C1A617 /* Build configuration list for PBXProject "QurbaTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D02C5029C44EEA00C1A617 /* Debug */,
+				63D02C5129C44EEA00C1A617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D02C5229C44EEA00C1A617 /* Build configuration list for PBXNativeTarget "QurbaTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D02C5329C44EEA00C1A617 /* Debug */,
+				63D02C5429C44EEA00C1A617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63903BBB29C77164002BBB88 /* XCRemoteSwiftPackageReference "SwiftUISnackbar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zaniluca/SwiftUISnackbar";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63903BBC29C77164002BBB88 /* SwiftUISnackbar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63903BBB29C77164002BBB88 /* XCRemoteSwiftPackageReference "SwiftUISnackbar" */;
+			productName = SwiftUISnackbar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 63D02C3C29C44EE600C1A617 /* Project object */;
+}
